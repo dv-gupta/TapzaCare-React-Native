@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+vendor/bundle/
+ios/Pods/
+# Android builds
+android/.gradle/
+android/build/
+android/app/build/
+android/.cxx/
+android/app/.cxx/
+*.apk
+*.aab
+# iOS builds
+ios/build/
+DerivedData/
+*.xcarchive
+# Secrets
+.env
+.env.*
+!.env.example
+*.keystore
+*.jks
+# Logs
+*.log
+.DS_Store
