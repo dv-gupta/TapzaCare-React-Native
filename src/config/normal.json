@@ -1,0 +1,245 @@
+
+{
+  "version": 1,
+  "theme": {
+    "primary": "#087F73",
+    "secondary": "#E5F5F0",
+    "background": "#F7FAF9",
+    "surface": "#FFFFFF",
+    "textPrimary": "#18342F",
+    "textSecondary": "#6B817C",
+    "accent": "#F5A623"
+  },
+  "tabs": [
+    {
+      "id": "1",
+      "label": "Home",
+      "icon": "house",
+      "screen": "home"
+    },
+    {
+      "id": "2",
+      "label": "Bookings",
+      "icon": "calendar",
+      "screen": "bookings"
+    },
+    {
+      "id": "3",
+      "label": "Prescriptions",
+      "icon": "file",
+      "screen": "prescriptions"
+    },
+    {
+      "id": "4",
+      "label": "Profile",
+      "icon": "user",
+      "screen": "profile"
+    }
+  ],
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero_banner",
+      "background": {
+        "kind": "gradient",
+        "value": "#087F73,#42B6A2"
+      },
+      "title": "Your health, our priority",
+      "items": [
+        {
+          "id": "h1",
+          "title": "Good Morning!",
+          "subtitle": "Healthcare for your whole family",
+          "description": "Book trusted doctors, manage appointments and access your health records in one place.",
+          "badge": "WELCOME TO TAPZACARE",
+          "buttonText": "Book Appointment",
+          "ctaAction": "doctors",
+          "imageUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "categories",
+      "type": "category_chips",
+      "background": {
+        "kind": "color",
+        "value": "#FFFFFF"
+      },
+      "title": "Explore Care",
+      "items": [
+        {
+          "id": "c1",
+          "name": "Consult",
+          "icon": "stethoscope",
+          "color": "#087F73"
+        },
+        {
+          "id": "c2",
+          "name": "Lab Tests",
+          "icon": "flask-conical",
+          "color": "#087F73"
+        },
+        {
+          "id": "c3",
+          "name": "Pharmacy",
+          "icon": "pill",
+          "color": "#087F73"
+        },
+        {
+          "id": "c4",
+          "name": "Vaccines",
+          "icon": "syringe",
+          "color": "#087F73"
+        }
+      ]
+    },
+    {
+      "id": "actions",
+      "type": "quick_actions",
+      "background": {
+        "kind": "color",
+        "value": "#E5F5F0"
+      },
+      "title": "Quick Actions",
+      "items": [
+        {
+          "id": "a1",
+          "name": "Book",
+          "subtitle": "Find a doctor",
+          "icon": "calendar",
+          "route": "Doctors",
+          "color": "#087F73",
+          "backgroundColor": "#E5F5F0"
+        },
+        {
+          "id": "a2",
+          "name": "Prescriptions",
+          "subtitle": "Your medical records",
+          "icon": "clipboard-list",
+          "route": "Prescriptions",
+          "color": "#087F73",
+          "backgroundColor": "#E5F5F0"
+        },
+        {
+          "id": "a3",
+          "name": "Reminders",
+          "subtitle": "Medicine schedule",
+          "icon": "bell",
+          "route": "Reminders",
+          "color": "#087F73",
+          "backgroundColor": "#E5F5F0"
+        },
+        {
+          "id": "a4",
+          "name": "Family",
+          "subtitle": "Manage your profile",
+          "icon": "user",
+          "route": "Profile",
+          "color": "#087F73",
+          "backgroundColor": "#E5F5F0"
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "type": "service_grid",
+      "background": {
+        "kind": "color",
+        "value": "#FFFFFF"
+      },
+      "title": "Popular Services",
+      "items": [
+        {
+          "id": "s1",
+          "name": "General Consultation",
+          "subtitle": "Consult an experienced doctor",
+          "icon": "stethoscope",
+          "price": 499,
+          "badge": "Popular",
+          "color": "#087F73",
+          "backgroundColor": "#E5F5F0",
+          "action": "doctors"
+        },
+        {
+          "id": "s2",
+          "name": "Full Body Checkup",
+          "subtitle": "Complete preventive health screening",
+          "icon": "heart-pulse",
+          "price": 1499,
+          "badge": "Best Value",
+          "color": "#087F73",
+          "backgroundColor": "#E5F5F0",
+          "action": "doctors"
+        },
+        {
+          "id": "s3",
+          "name": "Skin Consultation",
+          "subtitle": "Expert care for your skin",
+          "icon": "stethoscope",
+          "price": 599,
+          "color": "#087F73",
+          "backgroundColor": "#E5F5F0",
+          "action": "doctors"
+        }
+      ]
+    },
+    {
+      "id": "doctors",
+      "type": "doctor_carousel",
+      "background": {
+        "kind": "color",
+        "value": "#F7FAF9"
+      },
+      "title": "Meet Our Doctors",
+      "items": [
+        {
+          "id": "doc-1",
+          "name": "Dr. Ananya Reddy",
+          "specialty": "General Physician",
+          "photoUrl": "",
+          "feeInr": 499,
+          "languages": [
+            "English",
+            "Hindi"
+          ],
+          "nextSlot": "Today 10 AM"
+        },
+        {
+          "id": "doc-2",
+          "name": "Dr. Rahul Sharma",
+          "specialty": "Cardiologist",
+          "photoUrl": "",
+          "feeInr": 799,
+          "languages": [
+            "English",
+            "Hindi"
+          ],
+          "nextSlot": "Tomorrow 9 AM"
+        }
+      ]
+    },
+    {
+      "id": "offers",
+      "type": "offer_strip",
+      "background": {
+        "kind": "gradient",
+        "value": "#087F73,#42B6A2"
+      },
+      "title": "Special Offer",
+      "items": [
+        {
+          "id": "o1",
+          "title": "First Consultation Offer",
+          "message": "Get 20% off on your first consultation",
+          "subtitle": "Save on your first doctor appointment with TapzaCare.",
+          "badge": "NEW USER OFFER",
+          "discountText": "20% OFF",
+          "backgroundColor": "#E5F5F0",
+          "textColor": "#18342F",
+          "ctaText": "Book Now",
+          "ctaAction": "doctors"
+        }
+      ]
+    }
+  ]
+}

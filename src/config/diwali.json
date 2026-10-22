@@ -1,0 +1,244 @@
+
+{
+  "version": 2,
+  "theme": {
+    "primary": "#9C4D12",
+    "secondary": "#FFF0D5",
+    "background": "#FFF9F0",
+    "surface": "#FFFFFF",
+    "textPrimary": "#553014",
+    "textSecondary": "#80664D",
+    "accent": "#E5A329",
+    "festival": {
+      "name": "Diwali",
+      "greeting": "Happy Diwali!",
+      "bannerImageUrl": ""
+    }
+  },
+  "tabs": [
+    {
+      "id": "1",
+      "label": "Home",
+      "icon": "house",
+      "screen": "home"
+    },
+    {
+      "id": "2",
+      "label": "Bookings",
+      "icon": "calendar",
+      "screen": "bookings"
+    },
+    {
+      "id": "3",
+      "label": "Prescriptions",
+      "icon": "file",
+      "screen": "prescriptions"
+    },
+    {
+      "id": "4",
+      "label": "Profile",
+      "icon": "user",
+      "screen": "profile"
+    }
+  ],
+  "sections": [
+    {
+      "id": "diwali-hero",
+      "type": "hero_banner",
+      "background": {
+        "kind": "gradient",
+        "value": "#9C4D12,#E5A329"
+      },
+      "title": "Celebrate a Healthy Diwali",
+      "items": [
+        {
+          "id": "h1",
+          "title": "Happy Diwali!",
+          "subtitle": "Wishing your family health, happiness and prosperity this festive season.",
+          "badge": "DIWALI SPECIAL",
+          "buttonText": "Book Appointment",
+          "ctaAction": "doctors",
+          "imageUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "diwali-offer",
+      "type": "offer_strip",
+      "background": {
+        "kind": "color",
+        "value": "#FFF0D5"
+      },
+      "title": "Diwali Special",
+      "items": [
+        {
+          "id": "o1",
+          "title": "Festive Health Checkup",
+          "message": "Festive health checkups starting at ₹999",
+          "subtitle": "Take care of your family's health this Diwali.",
+          "badge": "FESTIVE DEAL",
+          "discountText": "Starting at ₹999",
+          "backgroundColor": "#FFEDD5",
+          "textColor": "#553014",
+          "ctaText": "Explore",
+          "ctaAction": "doctors"
+        }
+      ]
+    },
+    {
+      "id": "diwali-services",
+      "type": "service_grid",
+      "background": {
+        "kind": "color",
+        "value": "#FFFFFF"
+      },
+      "title": "Festive Wellness",
+      "items": [
+        {
+          "id": "s1",
+          "name": "Family Health Package",
+          "subtitle": "Complete wellness for your family",
+          "icon": "heart-pulse",
+          "price": 999,
+          "badge": "Diwali Deal",
+          "color": "#C2410C",
+          "backgroundColor": "#FFF0D5",
+          "action": "doctors"
+        },
+        {
+          "id": "s2",
+          "name": "Diabetes Screening",
+          "subtitle": "Monitor your blood sugar levels",
+          "icon": "lab-tests",
+          "price": 399,
+          "badge": "Health Check",
+          "color": "#9C4D12",
+          "backgroundColor": "#FFF0D5",
+          "action": "doctors"
+        },
+        {
+          "id": "s3",
+          "name": "Heart Health Check",
+          "subtitle": "Keep your heart healthy",
+          "icon": "heart-pulse",
+          "price": 1199,
+          "badge": "Recommended",
+          "color": "#C2410C",
+          "backgroundColor": "#FFF0D5",
+          "action": "doctors"
+        }
+      ]
+    },
+    {
+      "id": "diwali-categories",
+      "type": "category_chips",
+      "background": {
+        "kind": "color",
+        "value": "#FFF9F0"
+      },
+      "title": "Explore Services",
+      "items": [
+        {
+          "id": "c1",
+          "name": "Checkups",
+          "icon": "heart-pulse",
+          "color": "#C2410C"
+        },
+        {
+          "id": "c2",
+          "name": "Consult",
+          "icon": "stethoscope",
+          "color": "#9C4D12"
+        },
+        {
+          "id": "c3",
+          "name": "Pharmacy",
+          "icon": "pill",
+          "color": "#EA580C"
+        }
+      ]
+    },
+    {
+      "id": "diwali-actions",
+      "type": "quick_actions",
+      "background": {
+        "kind": "color",
+        "value": "#FFF0D5"
+      },
+      "title": "Quick Actions",
+      "items": [
+        {
+          "id": "a1",
+          "name": "Book",
+          "subtitle": "Find a doctor",
+          "icon": "stethoscope",
+          "route": "Doctors",
+          "color": "#9C4D12",
+          "backgroundColor": "#FFF9F0"
+        },
+        {
+          "id": "a2",
+          "name": "Prescriptions",
+          "subtitle": "Medical records",
+          "icon": "clipboard-list",
+          "route": "Prescriptions",
+          "color": "#9C4D12",
+          "backgroundColor": "#FFF9F0"
+        },
+        {
+          "id": "a3",
+          "name": "Reminders",
+          "subtitle": "Medicine schedule",
+          "icon": "bell",
+          "route": "Reminders",
+          "color": "#9C4D12",
+          "backgroundColor": "#FFF9F0"
+        },
+        {
+          "id": "a4",
+          "name": "Family",
+          "subtitle": "Manage your profile",
+          "icon": "user",
+          "route": "Profile",
+          "color": "#9C4D12",
+          "backgroundColor": "#FFF9F0"
+        }
+      ]
+    },
+    {
+      "id": "diwali-doctors",
+      "type": "doctor_carousel",
+      "background": {
+        "kind": "color",
+        "value": "#FFFFFF"
+      },
+      "title": "Doctors Available",
+      "items": [
+        {
+          "id": "doc-1",
+          "name": "Dr. Ananya Reddy",
+          "specialty": "General Physician",
+          "photoUrl": "",
+          "feeInr": 499,
+          "languages": [
+            "English",
+            "Hindi"
+          ],
+          "nextSlot": "Today 10 AM"
+        },
+        {
+          "id": "doc-3",
+          "name": "Dr. Priya Nair",
+          "specialty": "Dermatologist",
+          "photoUrl": "",
+          "feeInr": 599,
+          "languages": [
+            "English",
+            "Hindi"
+          ],
+          "nextSlot": "Tomorrow 11 AM"
+        }
+      ]
+    }
+  ]
+}
