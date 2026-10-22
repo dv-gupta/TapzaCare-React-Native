@@ -47,10 +47,7 @@ export function getDateKey(
   return `${year}-${month}-${day}`;
 }
 
-/**
- * Add calendar days without mutating
- * the original Date instance.
- */
+
 export function addDays(
   date: Date,
   days: number,
